@@ -1,7 +1,9 @@
+mod control_flow;
 mod data_types;
 mod functions;
 mod introduction;
 
+use control_flow::{and_or_operators, basics};
 use data_types::{arrays, booleans, characters, enums, floating, integers, structs, tuples};
 use functions::{parameters_arguments, return_values, statements_expressions};
 use introduction::{constants, shadowing, variables};
@@ -26,4 +28,8 @@ fn main() {
     parameters_arguments::main();
     statements_expressions::main();
     return_values::main();
+
+    // control flow
+    basics::main();
+    and_or_operators::main();
 }
