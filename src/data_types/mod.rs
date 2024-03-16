@@ -1,3 +1,5 @@
+pub mod booleans;
+pub mod floating;
 pub mod integers;
 
 /* Data Types:
