@@ -1,8 +1,10 @@
 pub mod arrays;
 pub mod booleans;
 pub mod characters;
+pub mod enums;
 pub mod floating;
 pub mod integers;
+pub mod structs;
 pub mod tuples;
 
 /* Data Types:
