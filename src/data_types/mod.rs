@@ -1,6 +1,9 @@
+pub mod arrays;
 pub mod booleans;
+pub mod characters;
 pub mod floating;
 pub mod integers;
+pub mod tuples;
 
 /* Data Types:
     Scalar Types:

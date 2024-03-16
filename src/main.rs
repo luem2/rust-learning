@@ -1,7 +1,7 @@
 mod data_types;
 mod introduction;
 
-use data_types::{booleans, floating, integers};
+use data_types::{arrays, booleans, characters, floating, integers, tuples};
 use introduction::{constants, shadowing, variables};
 
 fn main() {
@@ -14,4 +14,7 @@ fn main() {
     integers::main();
     floating::main();
     booleans::main();
+    characters::main();
+    tuples::main();
+    arrays::main();
 }
