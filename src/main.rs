@@ -3,7 +3,7 @@ mod data_types;
 mod functions;
 mod introduction;
 
-use control_flow::{and_or_operators, basics};
+use control_flow::{and_or_operators, basics, match_construct};
 use data_types::{arrays, booleans, characters, enums, floating, integers, structs, tuples};
 use functions::{parameters_arguments, return_values, statements_expressions};
 use introduction::{constants, shadowing, variables};
@@ -32,4 +32,5 @@ fn main() {
     // control flow
     basics::main();
     and_or_operators::main();
+    match_construct::main();
 }
