@@ -11,8 +11,8 @@ pub fn main() {
 
     // match es similar a un switch (con sintaxis compacta)
     match red_light {
-        TrafficLight::Red => println!("Stop!"),
-        TrafficLight::Yellow => println!("Slow down!"),
-        TrafficLight::Green => println!("Go!"),
+        TrafficLight::Red => println!("Pare!"),
+        TrafficLight::Yellow => println!("Baje un cambio!"),
+        TrafficLight::Green => println!("Avance!"),
     }
 }

@@ -4,7 +4,7 @@ struct Person {
 }
 
 pub fn main() {
-    // Structs are used to group related data together (use in the top-level file)
+    // Las estructuras se utilizan para agrupar datos relacionados (se pone al principio del archivo)
 
     let person = Person {
         name: String::from("John"),

@@ -6,7 +6,7 @@ pub fn main() {
     Cuando declaramos una variable con let, el valor es inmutable
     esto arrojara un error:
     x = 6;
-    println!("The value of x is: {}", x);
+    println!("El valor de x es: {}", x);
     */
 
     // Para declarar una variable mutable, usamos la keyword "mut"

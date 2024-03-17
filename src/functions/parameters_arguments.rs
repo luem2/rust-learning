@@ -1,5 +1,5 @@
 pub fn main() {
-    println!("Hello, world!");
+    println!("Hola mundo!");
     /*
         Podemos utilizar la funcion declarada abajo (no importa el orden)
         Esto funciona porque, el compilador de rust, analiza todas las funciones antes de compilar el codigo principal, permitiendo asi, encontrar la definicion de la misma.

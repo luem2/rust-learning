@@ -10,7 +10,7 @@ pub fn main() {
     let x: i32 = x + 20;
     println!("El valor de x es: {}", x); // El valor sera 65
 
-    let x: &str = "Hello world!";
+    let x: &str = "Hola mundo!";
     println!("El valor de x es: {}", x);
 
     // Creamos una variable mutable de tipo i32.
@@ -18,7 +18,7 @@ pub fn main() {
 
     /*
      Esto nos arrojara error, ya que no podemos cambiar el tipo de la variable en la asignacion.
-     x = "Hello world!"
+     x = "Hola mundo!"
     */
 
     x = x + 40;

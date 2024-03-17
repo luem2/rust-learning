@@ -1,16 +1,16 @@
 pub fn main() {
     // Booleans
 
-    let t = true; // implicit declaration
-    let f: bool = false; // explicit declaration
+    let t = true; // declaracion implicita
+    let f: bool = false; // declaracion explicita
 
-    println!("true = {}, false = {}", t, f);
+    println!("verdadero = {}, falso = {}", t, f);
 
     // if statement
     if t {
-        println!("t is true");
+        println!("t es verdadero");
     } else {
-        println!("t is false");
+        println!("t es falso");
     }
 
     let not_t = !t;
