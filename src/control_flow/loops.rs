@@ -1,6 +1,6 @@
 pub fn main() {
     /*
-       Se va a ejecutar todo el tiempo sin fin.
+       Se va a ejecutar todo el tiempo sin fin. Es como un while true.
        loop {
            println!("De nuevo!");
        }

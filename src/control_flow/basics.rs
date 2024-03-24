@@ -1,6 +1,8 @@
 pub fn main() {
     basic_if();
     other_basic_if();
+
+    println!("Factorial: {}", calculate_factorial(5));
 }
 
 fn basic_if() {
@@ -31,5 +33,19 @@ fn other_basic_if() {
         println!("{} es mayor que 10", num);
     } else {
         println!("{} es menor que 10", num);
+    }
+}
+
+fn calculate_factorial(number: u128) -> u128 {
+    if number == 0 || number == 1 {
+        1
+    } else {
+        let mut result = number;
+
+        for i in (1..number).rev() {
+            result *= i;
+        }
+
+        result
     }
 }

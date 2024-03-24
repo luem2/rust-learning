@@ -2,6 +2,9 @@ pub fn main() {
     let x = returns_three();
     println!("El valor de x es: {}", x);
 
+    let x = returns_three_explicit();
+    println!("El valor de x es: {}", x);
+
     let y = sum_two(3, 8);
     println!("El valor de y es: {}", y);
 
@@ -18,9 +21,16 @@ pub fn main() {
 }
 
 // Devuelve valor de la funcion, y necesitamos especificar el tipo del dato que queremos devolver.
-// No es necesario el "return"
+// No es necesario el "return" (no tiene que tener ; en la ultima linea)
 fn returns_three() -> i32 {
-    1 + 2
+    1 + 2 // return implicito
+}
+
+fn returns_three_explicit() -> i32 {
+    let mut num = 1;
+    num += 2;
+
+    return num;
 }
 
 //
