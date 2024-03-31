@@ -1,23 +1,23 @@
-pub fn main() {
+pub fn _statements_expressions() {
     /* Statements (declaraciones)
         Es una instruccion que realiza una accion pero que no devuelve un valor.
     */
 
     // Declaracion de variables
-    let mut x: i32 = 42;
+    let mut _x: i32 = 42;
 
     // Asignacion
-    x = 5;
+    _x = 5;
 
     // Expresiones if else sin asignacion
-    if x != 5 {
-        println!("El valor de x es {}", x);
+    if _x != 5 {
+        println!("El valor de x es {}", _x);
     }
 
     // Bucles
-    while x > 0 {
-        println!("El valor de x es {}", x);
-        x -= 1;
+    while _x > 0 {
+        println!("El valor de x es {}", _x);
+        _x -= 1;
     }
 
     /* Expressions (expresiones):

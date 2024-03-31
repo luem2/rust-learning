@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _characters() {
     // Characters
     let c = 'z';
     let x = '𝕏'; // El caracter U+1d54f "𝕏" se puede confundir con el caracter ASCII U+0058 "X"

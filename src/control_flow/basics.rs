@@ -1,11 +1,11 @@
-pub fn main() {
-    basic_if();
-    other_basic_if();
+pub fn _basics() {
+    _basic_if();
+    _other_basic_if();
 
-    println!("Factorial: {}", calculate_factorial(5));
+    println!("Factorial: {}", _calculate_factorial(5));
 }
 
-fn basic_if() {
+fn _basic_if() {
     let condition = true;
 
     let number = if condition {
@@ -19,7 +19,7 @@ fn basic_if() {
     println!("El valor del numero es: {}", number);
 }
 
-fn other_basic_if() {
+fn _other_basic_if() {
     let num = 15;
 
     // modulo devuelve el resto de la division
@@ -36,7 +36,7 @@ fn other_basic_if() {
     }
 }
 
-fn calculate_factorial(number: u128) -> u128 {
+fn _calculate_factorial(number: u128) -> u128 {
     if number == 0 || number == 1 {
         1
     } else {

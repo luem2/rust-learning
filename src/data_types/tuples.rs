@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _tuples() {
     // Tuples
     let tup: (i32, f64, char) = (500, 6.4, 'x');
 

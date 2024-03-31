@@ -1,18 +1,18 @@
-enum TrafficLight {
+enum _TrafficLight {
     Red,
     Yellow,
     Green,
 }
 
-pub fn main() {
-    let red_light = TrafficLight::Red;
-    let _yellow_light = TrafficLight::Yellow;
-    let _green_light = TrafficLight::Green;
+pub fn _enums() {
+    let red_light = _TrafficLight::Red;
+    let _yellow_light = _TrafficLight::Yellow;
+    let _green_light = _TrafficLight::Green;
 
     // match es similar a un switch (con sintaxis compacta)
     match red_light {
-        TrafficLight::Red => println!("Pare!"),
-        TrafficLight::Yellow => println!("Baje un cambio!"),
-        TrafficLight::Green => println!("Avance!"),
+        _TrafficLight::Red => println!("Pare!"),
+        _TrafficLight::Yellow => println!("Baje un cambio!"),
+        _TrafficLight::Green => println!("Avance!"),
     }
 }

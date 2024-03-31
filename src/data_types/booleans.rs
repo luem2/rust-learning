@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _booleans() {
     // Booleans
 
     let t = true; // declaracion implicita

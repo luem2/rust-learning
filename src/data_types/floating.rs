@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _floating() {
     // Floating
 
     let x = 2.0; // f64 default (pero si la uso en una operacion con otro flotante de f32, este es inferido a f32)

@@ -1,19 +1,19 @@
-pub fn main() {
+pub fn _parameters_arguments() {
     println!("Hola mundo!");
     /*
         Podemos utilizar la funcion declarada abajo (no importa el orden)
         Esto funciona porque, el compilador de rust, analiza todas las funciones antes de compilar el codigo principal, permitiendo asi, encontrar la definicion de la misma.
     */
 
-    print_number(42);
-    many_parameters(42, 'a');
+    _print_number(42);
+    _many_parameters(42, 'a');
 }
 
-fn print_number(num: i32) {
+fn _print_number(num: i32) {
     println!("El número es: {}", num);
 }
 
-fn many_parameters(num: i32, cr: char) {
+fn _many_parameters(num: i32, cr: char) {
     println!("El número es: {} y el caracter es: {}", num, cr);
 }
 

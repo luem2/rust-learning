@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _and_or_operators() {
     let a = 10;
     let b = 5;
     let c = 20;

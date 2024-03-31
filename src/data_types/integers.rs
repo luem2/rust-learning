@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _integers() {
     /* Integers
        Length   Signed   Unsigned
        8-bit    i8       u8

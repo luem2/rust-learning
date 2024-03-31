@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _loops() {
     /*
        Se va a ejecutar todo el tiempo sin fin. Es como un while true.
        loop {
@@ -18,12 +18,12 @@ pub fn main() {
 
     println!("Resultado: {}", result);
 
-    while_loop();
-    for_loop();
-    fizz_buzz();
+    _while_loop();
+    _for_loop();
+    _fizz_buzz();
 }
 
-fn while_loop() {
+fn _while_loop() {
     let mut counter = 3;
 
     while counter != 0 {
@@ -38,7 +38,7 @@ fn while_loop() {
     println!("Despegue!!!!");
 }
 
-fn for_loop() {
+fn _for_loop() {
     let a = [10, 20, 30, 40, 50];
     let s = "Hola mundo";
 
@@ -55,7 +55,7 @@ fn for_loop() {
     }
 }
 
-fn fizz_buzz() {
+fn _fizz_buzz() {
     for number in 1..=100 {
         if number % 3 == 0 && number % 5 == 0 {
             println!("fizzbuzz");

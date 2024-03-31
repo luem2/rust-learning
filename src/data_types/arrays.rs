@@ -1,4 +1,4 @@
-pub fn main() {
+pub fn _arrays() {
     // Arrays: coleccion de datos del MISMO TIPO con el TAMAÑO FIJO
 
     let arr = [1, 2, 3, 4, 5]; // arreglo de 5 elementos
